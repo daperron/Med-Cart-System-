@@ -1,0 +1,17 @@
+All files are going to  be delimited with a tab. the spacing looks off but they are all tabs. Might want to make the data using excel. 
+
+Username	Password	User_First_Name	User_Last_Name	Barcode	admin_flag	supervisor_Flag
+
+Username must be a unique alphanumeric string
+
+Password must be a alphanumeric string that contain at least 8 characters, 1 uppercase, 1 lowercase, 1 number, 1 special characters !@#$%^&*
+
+User_First_Name has to be an alphanumeric string
+
+User_Last_Name has to an alphanumeric string
+
+Barcode has to match the format of the barcode generator
+
+admin_flag has to be a 1 if the user is going to be an admin otherwise it will be a 0
+
+supervisor_Flag has to be a 1 if the user is going to be a supervisor (charge nurse) otherwise it will be a 0

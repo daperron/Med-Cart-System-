@@ -1,0 +1,5 @@
+579845875	547487fdsfds58	Sam	Mike	Kyle	3/10/2021	Male	140	140	5478 Holly ct	midland	MI	nathan@taco.com	48645	989-754-5784	1
+47845985	457fsd547985	Steve	Taco	Max	12/12/1928	female	150	140	1212 N. Death Road	saginaw	mi	Mike@kyle.com	42567	989-547-5657	20
+4585487	547fds587	Mike	Ton	Son	5/21/1950	Male	20	20	2547 E. Death road	Bay City 	mi	Stuff@taco.co	54784	989-547-8457	5
+548962	54722fdsfs54	Son	Goku	Mike	8/13/1854	Male	50	50	2323 Taco Drive	Oakmas	mi	sam@taco.com	47845	989-547-8457	2
+584784	457fsd547985	Kyle	Son	Steve	7/20/2000	female	82	82	2222 Bump Road	midland	MI	moreEmail@email.com	48574	989-547-5478	1

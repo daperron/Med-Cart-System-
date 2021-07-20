@@ -1,0 +1,100 @@
+Chelsea	Cherry	Cameron	Prescribe	561-916-3141	887-863-3459	3348 Hill St	Grand Haven	RI	27351
+Sienna	Dominik	Watson	Prescribe	156-146-7212	114-268-9227	432192 Essling St	Kalamazoo	IA	78232
+Camila	Lenny	Stewart	Advisor	811-661-2248	997-914-8154	3348 Bliss St	Benton Harbor	ID	15871
+April	Bruce	Riley	Prescribe	365-263-4626	638-631-9314	3348 Mott St	Saginaw	OK	69479
+Vincent	Aldus	Williams	Prescribe	984-287-2867	649-675-6742	3348 Dillon St	Petoskey	NH	55769
+Walter		Barnes	Diagnose	739-574-6145	197-739-4159	432192 Amherst St	Detroit	MD	97964
+Evelyn	Derek	Gray	Advisor	786-438-9936	435-219-6428	432192 Boxwood St	Livonia	VT	76749
+April	C	Henderson	Diagnose	329-138-3767	334-519-6857	3348 Casimir St	Ludington	ME	87741
+Blake	Gianna	Morris	Advisor	258-378-2625	722-427-7161	38611 Blackmore St	Ludington	MD	51889
+Oliver	Valeria	Gray	Diagnose	961-613-3926	241-178-2994	3348 Dillon St	Benton Harbor	DE	68646
+Sam	Fiona	Reed	Prescribe	667-399-2843	285-867-6745	38611 Appold Dr	East Lansing	NH	85518
+Elian	Cherry	Murray	Prescribe	741-183-1284	255-889-2738	3348 Blackmore St	Benton Harbor	SD	27679
+Dominik	Leonardo	Casey	Diagnose	126-873-7868	579-534-9535	3348 Boehlke St	Livonia	WV	81843
+Paul		Higgins	Prescribe	458-849-6469	339-122-9655	38611 Hill St	Ludington	KS	34644
+Vivian	Emma	Thomas	Prescribe	938-316-6591	338-246-7274	38611 Erie St	Dearborn	RI	27962
+Miller	Ada	Lloyd	Prescribe	891-921-1212	687-739-6321	3348 Moton Dr	Grosse Pointe	CO	92557
+Sofia	Alberta	Alexander	Prescribe	145-782-7915	695-613-9787	3348 Myrtle St	Grosse Pointe	VA	71631
+Harold	Savana	Turner	Advisor	469-386-8156	711-291-1112	38611 Amherst St	Flint	MT	13145
+Abigail	Sofia	Richards	Prescribe	533-721-6611	736-177-4477	3348 Limerick St	Ecorse	GA	44919
+Lyndon	Evelyn	Lloyd	Advisor	684-854-2829	178-629-9399	3348 Morgan St	Saginaw	KY	67922
+Sienna	J	Parker	Prescribe	664-351-8582	791-751-8891	3348 Boxwood St	Cadillac	LA	32874
+Miller	Nicholas	Ross	Advisor	742-234-6495	268-188-3348	38611 Moton Dr	Mount Clemens	NE	14275
+Deanna	Elian	Nelson	Prescribe	241-267-2489	996-755-1538	3348 High St	Adrian	WY	27429
+Kimberly	Maximilian	Moore	Prescribe	785-274-8815	522-495-5922	3348 Blackmore St	Mount Clemens	LA	49389
+Alberta	Ada	Farrell	Advisor	131-757-2874	745-894-4648	3348 Erie St	Detroit	RI	75515
+Chelsea		Warren	Diagnose	928-795-5641	226-927-4211	432192 Boehlke St	Midland	UT	37481
+Haris	Edgar	Taylor	Prescribe	133-287-9491	159-668-1582	432192 Essling St	Traverse City	WI	95785
+Rebecca	Oscar	Farrell	Advisor	232-435-7989	697-786-7955	38611 Heyn Ave	Sault Sainte Marie	LA	62819
+Abigail	Sam	Parker	Prescribe	229-481-3789	287-334-3556	3348 Borland Ave	Adrian	WY	37824
+Jacob	Olivia	Moore	Advisor	988-775-8919	127-866-2943	38611 Ames St	Manistee	HI	65727
+Sydney	Carl	Kelly	Prescribe	967-286-2682	453-149-8694	38611 Bradley St	Monroe	RI	97451
+Catherine	Isabella	Ross	Diagnose	227-552-5734	863-286-3272	432192 Division St	Monroe	WI	45754
+Steven	Mary	Warren	Diagnose	179-295-5157	367-456-1385	38611 Appold Dr	Grand Haven	TN	55385
+Stella	Charlie	Baker	Diagnose	244-759-7264	969-523-8185	3348 Dillon St	Kalamazoo	NM	36553
+Stella	Heather	Campbell	Advisor	387-264-6493	652-117-4715	3348 Dixie Hwy	Benton Harbor	WI	48936
+Maximilian	Connie	Craig	Prescribe	173-454-2635	819-749-2496	432192 Mt Vernon Rd	Saginaw	UT	79347
+Sofia	Derek	Roberts	Prescribe	654-254-4912	436-349-3424	432192 Heyn Ave	Petoskey	AK	22428
+Tony	Luke	Barnes	Prescribe	432-543-8883	276-861-8988	38611 Amherst St	Detroit	VA	78476
+Marcus	A.	Roberts	Advisor	913-332-1123	889-587-5396	432192 N 10th St	Livonia	UT	29273
+David	Charlie	Davis	Prescribe	128-186-7922	929-794-4453	432192 Erie St	Ludington	TX	52388
+Darcy	Alisa	Evans	Advisor	697-852-3157	768-664-6924	3348 Hess Ave	Ludington	MI	26252
+Justin	Victor	Cameron	Advisor	982-528-1949	589-622-7984	432192 Appold Dr	Benton Harbor	IN	21949
+Martin	Deanna	Williams	Diagnose	511-232-1931	891-692-7722	38611 Cary St	East Lansing	VA	83738
+Honey	Lucas	Alexander	Diagnose	763-286-9277	194-843-2595	3348 Munson Ct	Benton Harbor	AZ	81365
+Reid	Roland	Watson	Advisor	921-348-3329	399-844-3662	38611 Casimir St	Livonia	PA	82554
+Jasmine	Stella	Chapman	Prescribe	782-827-9887	288-376-3892	432192 Dixie Hwy	Ludington	DE	97259
+Jenna	Mike	Wilson	Diagnose	447-272-2841	633-834-6239	38611 Braley St	Dearborn	UT	18398
+Dainton	Dominik	Thompson	Advisor	145-362-9748	657-518-6263	3348 N 10th St	Grosse Pointe	AR	84337
+Adrianna	Ned	Wright	Diagnose	244-984-2849	875-481-9685	3348 Braley St	Escanaba	NY	95943
+Kimberly	Alberta	Thomas	Diagnose	624-485-3473	339-685-2348	38611 Ames St	Grand Haven	CO	15981
+Evelyn		Montgomery	Prescribe	866-191-7137	513-562-6112	432192 Dixie Hwy	Eastpointe	HI	38669
+Jacob	Tony	Richardson	Diagnose	924-541-8185	187-632-5958	38611 Appold Dr	Bay City	MO	98321
+Dexter	Haris	Rogers	Advisor	793-619-2525	569-853-1976	38611 Lincoln Ave	Iron Mountain	OR	82313
+Brooke	Kevin	Ellis	Advisor	785-147-6388	396-933-9592	432192 Munson Ct	Houghton	CA	19669
+Amber	Kelvin	Mitchell	Advisor	156-153-8823	844-537-4574	38611 Moton Dr	Houghton	MI	29599
+Nicholas	Cadie	Davis	Diagnose	221-227-4715	237-499-7846	432192 Hill St	Ann Arbor	TX	49697
+Jessica	Kimberly	Brooks	Diagnose	115-576-7353	197-692-7347	432192 Dixie Hwy	Charlevoix	ME	46763
+Honey	Carlos	Jones	Prescribe	873-149-7613	663-567-4222	38611 Dixie Hwy	Saint Joseph	NJ	82967
+Harold	G.	Sullivan	Diagnose	538-372-2212	562-888-3277	38611 Erie St	Saint Joseph	ME	68482
+Alisa	Amanda	Cunningham	Advisor	622-998-5248	723-727-6858	432192 Erie St	Iron Mountain	NM	51283
+Antony	Vincent	Mason	Prescribe	694-878-3864	984-852-5155	3348 Division St	Lansing	OR	79413
+Steven	Paul	Elliott	Prescribe	668-281-4541	398-754-1122	432192 Casimir St	Cheboygan	RI	32357
+Carl	Rubie	Howard	Prescribe	882-348-6187	122-114-8599	38611 Hess Ave	Cheboygan	IN	78653
+Elian	Rebecca	Dixon	Advisor	933-214-3821	244-774-6575	432192 High St	Menominee	VT	89112
+Sarah	Dexter	Nelson	Prescribe	465-138-8153	688-421-1982	38611 Moton Dr	Bay City	UT	21155
+Garry	Savana	Warren	Prescribe	728-154-8959	127-314-5495	38611 Ames St	Mount Pleasant	MD	85276
+Ada		Carter	Advisor	414-439-2435	975-334-9924	3348 Bloomfield Blvd	Mount Clemens	ID	71415
+Elian	Sofia	West	Advisor	738-237-8532	668-275-1629	3348 Braley St	Highland Park	MS	43592
+Walter	Marcus	Warren	Advisor	662-342-4437	441-964-6657	432192 Bliss St	Manistee	NV	25552
+Lilianna	Honey	Carroll	Diagnose	317-314-5734	679-851-6962	3348 Myrtle St	Lansing	SD	93763
+Blake	Connie	Wells	Diagnose	182-492-6931	363-319-2295	3348 Blake St	Bloomfield Hills	ID	45898
+Annabella	Brad	Kelley	Advisor	592-779-5975	573-416-6739	432192 N 10th St	Mackinaw City	NE	63911
+Kirsten	Dominik	Carroll	Diagnose	746-679-6166	266-497-7351	38611 Lexington Dr	Royal Oak	WY	66162
+Vanessa	Maya	Cole	Prescribe	681-776-2661	188-531-2324	432192 High St	Ironwood	AL	17142
+Max	J	Casey	Diagnose	689-177-6676	256-962-9479	38611 Limerick St	Iron Mountain	ME	26278
+Lily	Lyndon	Miller	Advisor	626-247-7743	169-381-7716	38611 Blackmore St	Pontiac	MS	76735
+Marcus	Alfred	Carter	Prescribe	173-124-2415	923-348-3183	432192 Hill St	Interlochen	OH	22869
+Marcus	David	Dixon	Advisor	413-525-6435	617-827-9625	3348 Borland Ct	Pontiac	KY	18264
+Agata	Agata	Craig	Diagnose	379-224-4437	471-941-3361	3348 Myrtle St	Hancock	NC	88898
+Adison	Sophia	Cameron	Advisor	821-315-2685	487-263-3717	38611 Lincoln Ave	Charlevoix	ME	36972
+Sarah	Owen	Hawkins	Advisor	333-948-6218	375-959-9976	432192 Myrtle St	Mackinaw City	AR	31351
+Olivia		Dixon	Advisor	728-771-9897	561-224-1267	38611 Lexington Dr	Mount Pleasant	IA	82691
+Edwin	Aiden	Higgins	Prescribe	819-484-6325	834-333-4686	3348 Braley St	Royal Oak	MA	63485
+Kelsey	Aida	Bennett	Prescribe	955-115-8491	521-477-6689	3348 Braley St	Saginaw	TX	17888
+Anna	Fenton	Anderson	Advisor	113-451-8837	698-462-2813	3348 N 10th St	Trenton	ME	57968
+Eleanor	Miller	Wilson	Prescribe	218-893-9817	831-337-9479	38611 Ames St	Highland Park	CA	65935
+Sydney	Savana	Ferguson	Advisor	562-767-2232	474-515-6444	38611 Blackmore St	Escanaba	CT	51768
+Carl	Miley	Wilson	Advisor	721-317-6965	524-925-8584	38611 Munson Ct	Bay City	WA	55418
+Arianna	Jasmine	Rogers	Prescribe	823-874-3752	527-648-5279	3348 Borland Ave	Hancock	AL	69716
+Lyndon	Caroline	Cooper	Diagnose	864-915-1787	818-765-8139	432192 Morgan St	Midland	NH	64113
+Ellia		Crawford	Diagnose	792-798-3818	511-664-2197	38611 Heyn Ave	Cadillac	OR	64939
+Haris	Lilianna	Richardson	Advisor	285-798-7966	198-789-2872	432192 Bradley St	Saginaw	ME	64126
+Rafael	Carina	Miller	Advisor	127-625-7634	221-251-3842	432192 Essling St	Grand Haven	WY	53767
+Myra	S	Lloyd	Prescribe	159-398-3345	693-617-8268	3348 High St	Alma	NH	78589
+Briony	Martin	Hall	Prescribe	365-971-9135	452-132-9794	3348 Bradley St	Midland	CT	49463
+Mary	Lucia	Williams	Prescribe	793-938-5437	879-711-3155	3348 Munson Ct	Grayling	FL	52275
+Violet	Sophia	Payne	Prescribe	748-959-2324	366-916-4625	3348 Erie St	Midland	CO	23775
+Ellia	Heather	Harper	Diagnose	149-544-9675	971-535-3812	3348 Myrtle St	Marquette	ID	82623
+Byron	Marcus	Wright	Advisor	117-661-7151	215-192-9691	3348 Cary St	Battle Creek	MT	96299
+Edith	Dominik	Johnson	Diagnose	893-565-2835	312-727-8967	3348 Braley St	Petoskey	MO	56176

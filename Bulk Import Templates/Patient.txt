@@ -1,0 +1,40 @@
+All files are going to  be delimited with a tab. the spacing looks off but they are all tabs. Might want to make the data using excel. 
+
+MRN_Number	Barcode		Patient_First_Name	Patient_Middle_Name	Patient_last_name	Date_Of_Bith	Sex	Height	Weight	Address	city	state	email_address	Zip_Code	Phone_Number	Primary_Physician_ID	roomName	BedName
+
+
+MRN_Number has to be a integer
+
+Barcode can be an alphanumeric string
+
+Patient_First_Name has to be an alphanumeric string
+
+Patient_middle_name has to be alphanumeric string
+
+Patient_Last_Name has to be an alphanumeric string
+
+Date_Of_Birth	has to be a vaild date in the following format YYYY/MM/DD
+
+Sex has to be "Male" or "Female"
+
+Height has to be an integer 
+
+Weight has to be an integer
+
+Address has to be a alphanumeric string of a street address
+
+city has to be a alphanumeric string
+
+State has to be a 2 character string that matches one of the 50 states
+
+email_address has to be in the format of a standard email address. alphanumeric@domain.com
+
+Zip_Code has to be a 5 digit integer (perherably that exists)
+
+Phone_Numer has to be a numeric string in the following format xxx-xxx-xxxx with an optional 1- at the front
+
+Primary_Physician_ID has to be an integer ID of a physician that already exists in the system.
+
+roomName this is an alphanumeric string that is for the name of the room. It can be an existing room. Or if the room doesn't exist it will be added. 
+
+badName has to be an alphanumeric string that is for the name of the bed. It can be an existing bed, or if the bed doesn't exist it will be added. 

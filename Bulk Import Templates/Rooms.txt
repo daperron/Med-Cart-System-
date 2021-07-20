@@ -1,0 +1,7 @@
+All files are going to  be delimited with a tab. the spacing looks off but they are all tabs. Might want to make the data using excel. 
+
+Room_ID		Bed_Name
+
+Room_ID has to be an alphanumeric string
+
+Bed_Name has to be an alphanumeric string

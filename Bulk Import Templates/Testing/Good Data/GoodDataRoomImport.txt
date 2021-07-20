@@ -1,0 +1,5 @@
+SE12	Door
+SE22	Wall
+SE12	Wall
+QR98	Door
+Random but vaid crap	Soft

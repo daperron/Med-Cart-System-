@@ -1,0 +1,11 @@
+All files are going to  be delimited with a tab. the spacing looks off but they are all tabs. Might want to make the data using excel. 
+
+Drawer_node	Drawer_Number	Size	Number_of_Dividers
+
+Drawer_node is the communication mode the drawer us using to open
+
+Drawer_Number this is the number the drawer is on the cart
+
+Size this is how large the drawer is and what it can hold. 
+
+Number_of_Dividers this is the number of dividers tha the drawer is currently using. 

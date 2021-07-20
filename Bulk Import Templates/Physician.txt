@@ -1,0 +1,24 @@
+All files are going to  be delimited with a tab. the spacing looks off but they are all tabs. Might want to make the data using excel.  (Items in this are optional)
+
+Physician_First_Name	Physician_Middle_Name	Physician_Last_Name	Physician_Credentials	Physician_Phone_Number	Physician_Fax_Number	Physician_Address	Physician_city	Physician_State	Physician_zip_code	
+
+
+Physician_First_Name has to be an alphanumeric string
+
+Physician_Middle_Name has to be an alphanumeric string
+
+Physician_Last_Name has to be an alphanumeric string
+
+Physician_Credential has to be an alphanumeric string
+
+Physician_Phone_Number has to be a numeric string in the following format xxx-xxx-xxxx
+
+Physicians_Fax_Number has to be an numeric string in the following format xxx-xxx-xxxx
+
+Physician_Address has to be an alphanumeric string. 
+
+Physicians_City has to be an alphanumeric string
+
+Physician_state has to be a 2 character string of one of the 50 states
+
+Physician_Zip_code has to be a 5 digit integer

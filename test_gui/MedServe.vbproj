@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\SQLite.3.13.0\build\net45\SQLite.props" Condition="Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7267A30-5250-490B-A3B4-13C12E0265E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>test_gui.My.MyApplication</StartupObject>
+    <RootNamespace>test_gui</RootNamespace>
+    <AssemblyName>MedServe</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MedServe.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MedServe.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>MedServe.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>MedServe.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>medServe.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>MedServe.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>MedServe.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.11.7.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.11.7\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.113.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.113.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Authentication\frmEditPhysician.Designer.vb">
+      <DependentUpon>frmEditPhysician.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\frmEditPhysician.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\frmMainScreenWaste.Designer.vb">
+      <DependentUpon>frmMainScreenWaste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\frmMainScreenWaste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\DrawerClass.vb" />
+    <Compile Include="UI Enhancements\frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI Enhancements\frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\AdHoc.vb" />
+    <Compile Include="Inventory\API\APIDatabaseSelection.vb" />
+    <Compile Include="Settings\AdminActions.vb" />
+    <Compile Include="Patient Records\BulkImportMethods.vb" />
+    <Compile Include="Cart Interface\CartInterfaceCode.vb" />
+    <Compile Include="UI Enhancements\CheckComboBoxForDuplicateMethods.vb" />
+    <Compile Include="Settings\ConfigureRoomsBeds.vb" />
+    <Compile Include="Settings\CreateDatabase.vb" />
+    <Compile Include="UI Enhancements\DataVaildationMethods.vb" />
+    <Compile Include="Discrepancies\Discrepancies.vb" />
+    <Compile Include="UI Enhancements\frmProgressBar.Designer.vb">
+      <DependentUpon>frmProgressBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI Enhancements\frmProgressBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmAssignNurse.Designer.vb">
+      <DependentUpon>frmAssignNurse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmAssignNurse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\frmDispense.Designer.vb">
+      <DependentUpon>frmDispense.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\frmDispense.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\DispenseHistory.vb" />
+    <Compile Include="Cart Interface\EnumList.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\frmAdHockDispense.Designer.vb">
+      <DependentUpon>frmAdHockDispense.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\frmAdHockDispense.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Enhancements\frmAlert.Designer.vb">
+      <DependentUpon>frmAlert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI Enhancements\frmAlert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient Records\frmAllergies.Designer.vb">
+      <DependentUpon>frmAllergies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient Records\frmAllergies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentication\frmConfiguration.Designer.vb">
+      <DependentUpon>frmConfiguration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\frmConfiguration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\frmConfigureInventory.Designer.vb">
+      <DependentUpon>frmConfigureInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\frmConfigureInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmConfigureRooms.Designer.vb">
+      <DependentUpon>frmConfigureRooms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmConfigureRooms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmDischarge.Designer.vb">
+      <DependentUpon>frmDischarge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmDischarge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Discrepancies\frmDiscrepancies.Designer.vb">
+      <DependentUpon>frmDiscrepancies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Discrepancies\frmDiscrepancies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\frmEndOfShift.Designer.vb">
+      <DependentUpon>frmEndOfShift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\frmEndOfShift.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\frmInventory.Designer.vb">
+      <DependentUpon>frmInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\frmInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentication\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentication\frmLoginScan.Designer.vb">
+      <DependentUpon>frmLoginScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\frmLoginScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\frmMaintenance.Designer.vb">
+      <DependentUpon>frmMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\frmMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient Records\frmMyPatients.Designer.vb">
+      <DependentUpon>frmMyPatients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient Records\frmMyPatients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient Records\frmNewPatient.Designer.vb">
+      <DependentUpon>frmNewPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient Records\frmNewPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart Interface\frmOpenedDrawer.Designer.vb">
+      <DependentUpon>frmOpenedDrawer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cart Interface\frmOpenedDrawer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient Records\frmPatientInfo.Designer.vb">
+      <DependentUpon>frmPatientInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient Records\frmPatientInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient Records\frmPatientRecords.Designer.vb">
+      <DependentUpon>frmPatientRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient Records\frmPatientRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\frmPharmacy.Designer.vb">
+      <DependentUpon>frmPharmacy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\frmPharmacy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReport.Designer.vb">
+      <DependentUpon>frmReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Discrepancies\frmResolve.Designer.vb">
+      <DependentUpon>frmResolve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Discrepancies\frmResolve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart Interface\frmSerialPort.Designer.vb">
+      <DependentUpon>frmSerialPort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cart Interface\frmSerialPort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\frmWitnessSignOff.Designer.vb">
+      <DependentUpon>frmWitnessSignOff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\frmWitnessSignOff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart Interface\frmFullCart.Designer.vb">
+      <DependentUpon>frmFullCart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cart Interface\frmFullCart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentication\GenerateRandom.vb" />
+    <Compile Include="UI Enhancements\GraphicalUserInterfaceReusableMethods.vb" />
+    <Compile Include="Settings\ImportExportDatabase.vb" />
+    <Compile Include="Inventory\API\Interactions.vb" />
+    <Compile Include="Inventory\Inventory.vb" />
+    <Compile Include="Authentication\Login.vb" />
+    <Compile Include="Inventory\Medications.vb" />
+    <Compile Include="Patient Records\PatientClass.vb" />
+    <Compile Include="Patient Records\PatientInformation.vb" />
+    <Compile Include="Patient Records\PersonClass.vb" />
+    <Compile Include="Pharmacy\PharmacyOrder.vb" />
+    <Compile Include="Patient Records\PhysicianClass.vb" />
+    <Compile Include="UI Enhancements\PopulateAllergiesComboBoxMethods.vb" />
+    <Compile Include="UI Enhancements\PopulatePatientComboBoxMethods.vb" />
+    <Compile Include="UI Enhancements\PopulatePhysicanComboBoxesMethods.vb" />
+    <Compile Include="UI Enhancements\PopulateRoomsCombBoxesMethods.vb" />
+    <Compile Include="UI Enhancements\PopulateStateComboBoxesMethod.vb" />
+    <Compile Include="UI Enhancements\Print.vb" />
+    <Compile Include="Reports\Reports.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings\frmNewNurse.Designer.vb">
+      <DependentUpon>frmNewNurse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmNewNurse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient Records\RoomClass.vb" />
+    <Compile Include="Inventory\API\rxNorm.vb" />
+    <Compile Include="UI Enhancements\SearchLogic.vb" />
+    <Compile Include="Settings\frmSettingsChange.Designer.vb">
+      <DependentUpon>frmSettingsChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmSettingsChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Enhancements\TransparentPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI Enhancements\UISortFunctionality.vb" />
+    <Compile Include="Patient Records\UserClass.vb" />
+    <Compile Include="Inventory\frmWaste.Designer.vb">
+      <DependentUpon>frmWaste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\frmWaste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Authentication\frmEditPhysician.resx">
+      <DependentUpon>frmEditPhysician.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\frmMainScreenWaste.resx">
+      <DependentUpon>frmMainScreenWaste.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Enhancements\frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Enhancements\frmProgressBar.resx">
+      <DependentUpon>frmProgressBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmAssignNurse.resx">
+      <DependentUpon>frmAssignNurse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\frmDispense.resx">
+      <DependentUpon>frmDispense.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\frmAdHockDispense.resx">
+      <DependentUpon>frmAdHockDispense.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Enhancements\frmAlert.resx">
+      <DependentUpon>frmAlert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient Records\frmAllergies.resx">
+      <DependentUpon>frmAllergies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authentication\frmConfiguration.resx">
+      <DependentUpon>frmConfiguration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\frmConfigureInventory.resx">
+      <DependentUpon>frmConfigureInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmConfigureRooms.resx">
+      <DependentUpon>frmConfigureRooms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmDischarge.resx">
+      <DependentUpon>frmDischarge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discrepancies\frmDiscrepancies.resx">
+      <DependentUpon>frmDiscrepancies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\frmEndOfShift.resx">
+      <DependentUpon>frmEndOfShift.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\frmInventory.resx">
+      <DependentUpon>frmInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authentication\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authentication\frmLoginScan.resx">
+      <DependentUpon>frmLoginScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\frmMaintenance.resx">
+      <DependentUpon>frmMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient Records\frmMyPatients.resx">
+      <DependentUpon>frmMyPatients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient Records\frmNewPatient.resx">
+      <DependentUpon>frmNewPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cart Interface\frmOpenedDrawer.resx">
+      <DependentUpon>frmOpenedDrawer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient Records\frmPatientInfo.resx">
+      <DependentUpon>frmPatientInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient Records\frmPatientRecords.resx">
+      <DependentUpon>frmPatientRecords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\frmPharmacy.resx">
+      <DependentUpon>frmPharmacy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReport.resx">
+      <DependentUpon>frmReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discrepancies\frmResolve.resx">
+      <DependentUpon>frmResolve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cart Interface\frmSerialPort.resx">
+      <DependentUpon>frmSerialPort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\frmWitnessSignOff.resx">
+      <DependentUpon>frmWitnessSignOff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cart Interface\frmFullCart.resx">
+      <DependentUpon>frmFullCart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmNewNurse.resx">
+      <DependentUpon>frmNewNurse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmSettingsChange.resx">
+      <DependentUpon>frmSettingsChange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\frmWaste.resx">
+      <DependentUpon>frmWaste.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\icons8-delete_trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-downloading_updates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syringe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resolve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_2_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_black_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <None Include="Resources\export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plusminus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MicrosoftTeams-image %284%29.png" />
+    <None Include="Resources\LoginWhiteWriting.png" />
+    <None Include="Resources\user_px.png" />
+    <None Include="Resources\circleLoading.gif" />
+    <None Include="Resources\image.png" />
+    <Content Include="medServe.ico" />
+    <None Include="Resources\BLOCK - CMYK.png" />
+    <Content Include="Resources\loading.gif" />
+    <None Include="Resources\pillLoading.gif" />
+    <None Include="Resources\Loading1.gif" />
+    <None Include="Resources\Loading_2.gif" />
+    <None Include="Resources\add_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLite.3.13.0\build\net45\SQLite.props'))" />
+  </Target>
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
